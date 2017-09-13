@@ -1,0 +1,19 @@
+{
+  "name": "hobium-test-application",
+  "version": "0.0.0",
+  "description": "Hobium Architecture test application for microservices",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://coskudemirhan_hobium@bitbucket.org/hobium/node-services.git"
+  },
+  "author": "coskudemirhan",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/hobium/node-services#readme",
+  "dependencies": {
+    "restify": "^5.2.0"
+  }
+}
