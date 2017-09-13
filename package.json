@@ -4,7 +4,10 @@
   "description": "Hobium Architecture test application for microservices",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_cart" : "forever start server.js Cart",
+    "start_search" : "forever start server.js Search",
+    "stop" : "forever stop server.js"
   },
   "repository": {
     "type": "git",
