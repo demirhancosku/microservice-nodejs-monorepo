@@ -7,7 +7,7 @@
 class BaseResponse {
     constructor(res,next) {
         this.res = res;
-        this.nex = next;
+        this.next = next;
         this.res.header('content-type', 'json');
     }
 
@@ -25,7 +25,7 @@ class BaseResponse {
 
     send(){
         this.res.send({error:this.error, data:this.data});
-        return this.nex();
+        return this.next();
     }
 
 }

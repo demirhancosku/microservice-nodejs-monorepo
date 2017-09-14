@@ -25,23 +25,17 @@ global.server.use(restify.plugins.bodyParser());
 /**
  * Service Loader will define which service will be run
  */
-let ServiceLoader = require('./Services/ServiceLoader');
-
-let microservice = process.argv.slice(2)[0];
-
-if (microservice !== undefined && ServiceLoader[microservice] !== undefined) {
-
-    const service = require(ServiceLoader[microservice]);
-    service();
-
-    global.server.listen(config.api.port, () => {
-        console.log("server is up");
-    });
+let ServiceLoader = require('./ServiceLoader');
 
 
-}else{
-    console.log("Your selected service is not here :) ")
+for(let service of ServiceLoader.services){
+    require(service)();
 }
+
+global.server.listen(config.api.port, () => {
+    console.log("server is up");
+});
+
 
 
 

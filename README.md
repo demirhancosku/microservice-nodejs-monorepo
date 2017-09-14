@@ -1,17 +1,37 @@
-# Test Nodejs Application for micro services - Single Application
+# Test Nodejs Application for microservices - Multiple Application
+
+This repo is an example for multiple application microservices.
 
 ## Dependencies
-* Nodejs 8 and above
+* Node js 8 and above
 * Forever (Global)
 
 
 ## Usage
 There are two services in here as example: Cart & Search
 
-Firstly you must run
+You can run each service independently over service.js which is located in sub service's folder or you can run these services at the same time with services.js which is located in root folder. 
+
+## Running all services at the same time
+
+Firstly you must run;
 
 ``npm install``
 
-You can run these services with a second parameter to the node application like;
+Then you can call this command in the root folder;
 
-``npm run cart`` or ``npm run search``  
+``npm run up``
+
+
+## Running single service
+
+Firstly you must run;
+
+``npm install``
+
+Then you can run any service with this command in related services foler;
+
+``npm run up``
+
+
+With the multiple application microservice structure you can separate your dependencies and create separated build / deploy logic easily.

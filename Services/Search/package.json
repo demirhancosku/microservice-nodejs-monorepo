@@ -1,16 +1,12 @@
 {
-  "name": "hobium-test-multiple-application-microservice",
+  "name": "hobium-test-multiple-application-microservice-search-service",
   "version": "0.0.0",
   "description": "Hobium Architecture test application for multiple application microservices",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "up": "forever start services.js",
-    "stop": "forever stop services.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://coskudemirhan_hobium@bitbucket.org/hobium/node-services.git#multiple-application"
+    "up": "forever start server.js",
+    "stop": "forever stop server.js"
   },
   "author": "coskudemirhan",
   "license": "MIT",

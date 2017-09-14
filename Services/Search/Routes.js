@@ -5,7 +5,7 @@ module.exports = () => {
     /**
      * GET Example LISTS
      */
-    global.server.get('/example/lists', SearchController.getExampleList);
+    global.server.get('/example', SearchController.getExampleList);
 
 
     /**
