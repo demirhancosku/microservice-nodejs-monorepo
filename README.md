@@ -10,7 +10,7 @@ This repo is an example for multiple application microservices.
 ## Usage
 There are two services in here as example: Cart & Search
 
-You can run each service independently over service.js which is located in sub service's folder or you can run these services at the same time with services.js which is located in root folder. 
+You can run each service independently over server.js which is located in sub service's folder or you can run these services at the same time with services.js which is located in root folder. 
 
 ## Running all services at the same time
 
