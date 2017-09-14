@@ -1,5 +1,3 @@
-"use strict";
-
 const SuccessResponse = require("../../../Responses/SuccessResponse"),
     ErrorResponse = require("../../../Responses/ErrorResponse");
 

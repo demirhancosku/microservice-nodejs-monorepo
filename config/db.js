@@ -1,5 +1,3 @@
-"use strict";
-
 module.exports = {
     server: "localhost",
     database: "db_name",

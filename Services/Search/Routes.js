@@ -1,5 +1,3 @@
-"use strict";
-
 const SearchController = require("./Controllers/SearchController");
 
 module.exports = () => {

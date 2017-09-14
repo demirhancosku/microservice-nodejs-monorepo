@@ -1,5 +1,3 @@
-"use strict";
-
 const CartController = require("./Controllers/CartController"),
       CalculateController = require("./Controllers/CalculateController");
 
