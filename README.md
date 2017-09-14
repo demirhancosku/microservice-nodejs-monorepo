@@ -1,11 +1,11 @@
-#Test Nodejs Application for micro services - Single Application
+# Test Nodejs Application for micro services - Single Application
 
-##Dependencies
+## Dependencies
 * Nodejs 8 and above
 * Forever (Global)
 
 
-##Usage
+## Usage
 There are two services in here as example: Cart & Search
 
 Firstly you must run
