@@ -35,3 +35,10 @@ Then you can run any service with this command in related services foler;
 
 
 With the multiple application microservice structure you can separate your dependencies and create separated build / deploy logic easily.
+
+
+## Development
+
+All controller related files contained by ``Services`` folder by their names. For example ``Cart`` folder contains only cart related routes, server and controllers, you can add a ``Models`` folder also for your data models.
+
+Also you can add some dependencies in your service package.json file for this specific service.
