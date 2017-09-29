@@ -15,3 +15,8 @@ Firstly you must run
 You can run these services with a second parameter to the node application like;
 
 ``npm run cart`` or ``npm run search``  
+
+## Development
+
+All controller related files contained by ``Services`` folder by their names. For example ``Cart`` folder contains only cart related routes and controllers, you can add a ``Models`` folder also for your data models.
+
